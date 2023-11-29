@@ -9,13 +9,10 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/subheesh2/VLibPhoneNumber.git"
     s.license      = 'Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)'
     s.authors      = { "subheesh" => "subheesh.p@vonage.com" }
-    s.source       = { :git => "https://github.com/subheesh2/VLibPhoneNumber.git", :tag => s.version.to_s }
+    s.source       = { :git => "https://github.com/subheesh2/VLibPhoneNumber.git", :tag => "1.0.0" }
     s.libraries 	 = 'z'
     s.ios.framework    = 'Contacts'
-    s.ios.deployment_target = "11.0"
-    s.osx.deployment_target = "10.9"
-    s.watchos.deployment_target = "4.0"
-    s.tvos.deployment_target = "11.0"
+    s.ios.deployment_target = "13.0"
     s.requires_arc = true
     s.private_header_files = 'libPhoneNumber/NBGeneratedPhoneNumberMetaData.h', 'libPhoneNumberShortNumber/NBGeneratedShortNumberMetadata.h'
     s.source_files = 'libPhoneNumber/NBPhoneNumberDefines.{h,m}', 'libPhoneNumber/NBPhoneNumber.{h,m}', 'libPhoneNumber/NBNumberFormat.{h,m}', 'libPhoneNumber/NBPhoneNumberDesc.{h,m}', 'libPhoneNumber/NBPhoneMetaData.{h,m}', 'libPhoneNumber/NBPhoneNumberUtil.{h,m}', 'libPhoneNumber/NBMetadataHelper.{h,m}', 'libPhoneNumber/NBAsYouTypeFormatter.{h,m}', 'libPhoneNumber/NSArray+NBAdditions.{h,m}', 'libPhoneNumber/NBGeneratedPhoneNumberMetaData.h', 'libPhoneNumber/Internal/NBRegExMatcher.{h,m}', 'libPhoneNumber/Internal/NBRegularExpressionCache.{h,m}', 'libPhoneNumberShortNumber/NBShortNumberUtil.{h,m}', 'libPhoneNumberShortNumber/NBShortNumberMetadataHelper.{h,m}', 'libPhoneNumberShortNumber/NBGeneratedShortNumberMetadata.h'
