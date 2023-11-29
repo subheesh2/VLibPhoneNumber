@@ -1,0 +1,21 @@
+PODS:
+  - VLibPhoneNumber (1.0.4)
+
+DEPENDENCIES:
+  - VLibPhoneNumber (from `https://github.com/subheesh2/VLibPhoneNumber`)
+
+EXTERNAL SOURCES:
+  VLibPhoneNumber:
+    :git: https://github.com/subheesh2/VLibPhoneNumber
+
+CHECKOUT OPTIONS:
+  VLibPhoneNumber:
+    :commit: 6f1bcee8045175b641d660d2b038da09f53e40a0
+    :git: https://github.com/subheesh2/VLibPhoneNumber
+
+SPEC CHECKSUMS:
+  VLibPhoneNumber: 0a23018f7f68e6efd7de7dedbb9aae6cae50a97c
+
+PODFILE CHECKSUM: 49ac3e8a8bf85f8e9ebcc067f5ea3d205549e86f
+
+COCOAPODS: 1.12.1

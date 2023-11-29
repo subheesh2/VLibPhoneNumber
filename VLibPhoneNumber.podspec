@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "VLibPhoneNumber"
-    s.version      = "1.0.4"
+    s.version      = "1.0.5"
     s.summary      = "A Vonage iOS library for parsing, formatting, storing and validating international phone numbers from libphonenumber library."
     s.description  = <<-DESC
   libPhoneNumber for iOS

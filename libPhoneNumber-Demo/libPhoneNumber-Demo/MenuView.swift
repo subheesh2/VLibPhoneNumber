@@ -12,12 +12,12 @@ struct MenuView: View {
   var body: some View {
     NavigationView {
       List {
-        NavigationLink(destination: GeocodingView()) {
-          Text("Geocoding")
-        }
-        NavigationLink(destination: PhoneUtilView()) {
-          Text("Phone Number Parser")
-        }
+//        NavigationLink(destination: GeocodingView()) {
+//          Text("Geocoding")
+//        }
+//        NavigationLink(destination: PhoneUtilView()) {
+//          Text("Phone Number Parser")
+//        }
         NavigationLink(destination: ShortNumberUtilView()) {
           Text("Short Number Formatter")
         }

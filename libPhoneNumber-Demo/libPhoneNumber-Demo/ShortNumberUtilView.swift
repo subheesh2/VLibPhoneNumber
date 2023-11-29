@@ -7,8 +7,7 @@
 //
 
 import SwiftUI
-import libPhoneNumberShortNumber
-import libPhoneNumber_iOS
+import VLibPhoneNumber
 
 struct ShortNumberUtilView: View {
   @State private var phoneNumber: String = ""
@@ -17,8 +16,8 @@ struct ShortNumberUtilView: View {
   @State private var estimatedCostOfCall: NBEShortNumberCost?
   @State private var searchMade: Bool = false
 
-  let phoneUtil: NBPhoneNumberUtil = NBPhoneNumberUtil()
-  let shortNumberUtil: NBShortNumberUtil = NBShortNumberUtil()
+    let phoneUtil: NBPhoneNumberUtil = NBPhoneNumberUtil.sharedInstance()
+    let shortNumberUtil: NBShortNumberUtil = NBShortNumberUtil.sharedInstance()
 
   var body: some View {
     VStack {
