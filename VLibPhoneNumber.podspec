@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/subheesh2/VLibPhoneNumber.git"
     s.license      = 'Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)'
     s.authors      = { "subheesh" => "subheesh.p@vonage.com" }
-    s.source       = { :git => "https://github.com/subheesh2/VLibPhoneNumber.git", :tag => "1.0.0" }
+    s.source       = { :git => "https://github.com/subheesh2/VLibPhoneNumber.git", :tag => s.version.to_s }
     s.libraries 	 = 'z'
     s.ios.framework    = 'Contacts'
     s.ios.deployment_target = "13.0"
