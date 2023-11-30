@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-import VLibPhoneNumber
+import libPhoneNumberAlone
 
 struct FormatterView: View {
   @State var phoneNumber: String = ""

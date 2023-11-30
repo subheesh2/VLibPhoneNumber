@@ -8,7 +8,7 @@
 
 import SwiftUI
 //import libPhoneNumberGeocoding
-import VLibPhoneNumber
+import libPhoneNumberAlone
 
 //struct GeocodingSearchView: View {
 //  @State private var localeSelection = 0

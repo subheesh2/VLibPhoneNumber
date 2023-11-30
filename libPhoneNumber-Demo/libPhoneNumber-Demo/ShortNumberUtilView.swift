@@ -7,7 +7,8 @@
 //
 
 import SwiftUI
-import VLibPhoneNumber
+import libPhoneNumberAlone
+import libPhoneNumberShortNumberAlone
 
 struct ShortNumberUtilView: View {
   @State private var phoneNumber: String = ""

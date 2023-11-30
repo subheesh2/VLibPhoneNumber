@@ -1,21 +1,30 @@
 PODS:
-  - VLibPhoneNumber (1.0.4)
+  - libPhoneNumberAlone (1.0.5)
+  - libPhoneNumberShortNumberAlone (1.0.5):
+    - libPhoneNumberAlone
 
 DEPENDENCIES:
-  - VLibPhoneNumber (from `https://github.com/subheesh2/VLibPhoneNumber`)
+  - libPhoneNumberAlone (from `https://github.com/subheesh2/VLibPhoneNumber`)
+  - libPhoneNumberShortNumberAlone (from `https://github.com/subheesh2/VLibPhoneNumber`)
 
 EXTERNAL SOURCES:
-  VLibPhoneNumber:
+  libPhoneNumberAlone:
+    :git: https://github.com/subheesh2/VLibPhoneNumber
+  libPhoneNumberShortNumberAlone:
     :git: https://github.com/subheesh2/VLibPhoneNumber
 
 CHECKOUT OPTIONS:
-  VLibPhoneNumber:
-    :commit: 6f1bcee8045175b641d660d2b038da09f53e40a0
+  libPhoneNumberAlone:
+    :commit: b62d09ead9335fbe505a594cf398c322e56fdaf0
+    :git: https://github.com/subheesh2/VLibPhoneNumber
+  libPhoneNumberShortNumberAlone:
+    :commit: b62d09ead9335fbe505a594cf398c322e56fdaf0
     :git: https://github.com/subheesh2/VLibPhoneNumber
 
 SPEC CHECKSUMS:
-  VLibPhoneNumber: 0a23018f7f68e6efd7de7dedbb9aae6cae50a97c
+  libPhoneNumberAlone: 0ca4eabc311490711ed38f2a0b99202f936e2bac
+  libPhoneNumberShortNumberAlone: f7e30775d9b161d83811847eb209be38205818cb
 
-PODFILE CHECKSUM: 49ac3e8a8bf85f8e9ebcc067f5ea3d205549e86f
+PODFILE CHECKSUM: 3bdffc9720738f502980055537fd08f67f004b7c
 
 COCOAPODS: 1.12.1

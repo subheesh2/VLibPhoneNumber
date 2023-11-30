@@ -8,7 +8,7 @@
 
 import SwiftUI
 //import libPhoneNumberGeocoding
-import VLibPhoneNumber
+import libPhoneNumberAlone
 
 //struct GeocodingTableView: View {
 //  // Keep track of runtime statistics

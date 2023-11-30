@@ -9,7 +9,10 @@ target 'libPhoneNumber-Demo' do
   #pod 'libPhoneNumber-iOS', :git => 'https://github.com/iziz/libPhoneNumber-iOS'
   #pod 'libPhoneNumberGeocoding', :git => 'https://github.com/iziz/libPhoneNumber-iOS'
   #pod 'libPhoneNumberShortNumber', :git => 'https://github.com/iziz/libPhoneNumber-iOS'
-  pod 'VLibPhoneNumber', :git => 'https://github.com/subheesh2/VLibPhoneNumber'
+  #pod 'VLibPhoneNumber', :git => 'https://github.com/subheesh2/VLibPhoneNumber'
+   pod 'libPhoneNumberAlone', :git => 'https://github.com/subheesh2/VLibPhoneNumber'
+   pod 'libPhoneNumberShortNumberAlone', :git => 'https://github.com/subheesh2/VLibPhoneNumber'
+   
   target 'libPhoneNumber-DemoTests' do
     inherit! :search_paths
     # Pods for testing

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import VLibPhoneNumber
+import libPhoneNumberAlone
 
 struct LocaleInfo {
   let localeCode: String
